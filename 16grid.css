@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body,html{
+    height: 100%;
+
+}
+.container{
+    position: relative; 
+    width: 100%;
+    height: 50%;
+  
+}
+.container-1>p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    color: black;
+    letter-spacing: 8px;
+    font-size: 1.2rem
+}
+.text-container>p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 35%;
+    left: 42%;
+    color: black;
+    letter-spacing: 8px;
+    font-size: 2rem
+}
+.box-container>ul{
+    position: absolute;
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    top: 19%;
+    left: 36%;
+    
+}
+li{
+    border: 1px solid ;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+}
+li:hover{
+    background-color: gray;
+    color: white;
+}
+
+.container-2{
+    display: grid;
+    /* height: 100vh; */
+    /* border: 2px solid; */
+    text-align: center;
+    gap: 10px;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas:
+    "a b"
+    "c b"
+    "c d"
+    "c e"
+    "c f"
+    "g f"
+    "g h"
+    "i h"
+    "j h"
+    "k h"
+    "k l"
+    "m l";
+
+}
+.container-2>.item>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.item-1{
+    background-color: aqua;
+    grid-area: a;
+    
+    
+    
+}
+.item-2{
+    background-color:brown;
+    grid-area: b;
+    
+   
+    
+}
+.item-3{
+    background-color:rebeccapurple;
+    grid-area: c;
+    
+    
+}
+.item-4{
+    background-color:palegoldenrod;
+    grid-area: d;
+    
+    
+}
+.item-5{
+    background-color:pink;
+    grid-area: e;
+   
+    
+    
+}
+.item-6{
+    background-color: lawngreen;
+    grid-area: f;
+    
+    
+    
+}
+.item-7{
+    background-color: lavenderblush;
+    grid-area: g;
+    
+}
+.item-8{
+    background-color: gold;
+    grid-area: h;
+     
+}
+.item-9{
+    background-color: magenta;
+    grid-area: i;
+    
+}
+.item-10{
+    background-color: yellowgreen;
+    grid-area: j;
+    
+    
+}
+.item-11{
+    background-color: orange;
+    grid-area: k;
+   
+}
+.item-12{
+    background-color:olivedrab;
+    grid-area: l;
+     
+}
+.item-13{
+    background-color:orchid;
+    grid-area: m;
+    
+}
+.icons-container{
+    height: 30%;
+    position: relative;
+}
+.icons-container>.icons{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 20px;
+    color: rgb(84, 80, 80);
+}
+
+.icons-container>.w3{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    color: rgb(84, 80, 80);
+    font-size:15px
+    
+     
+}
